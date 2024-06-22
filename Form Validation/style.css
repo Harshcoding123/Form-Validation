@@ -1,0 +1,141 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  
+   
+}
+body{ 
+  background: #141a34;
+
+    
+display: flex;
+align-items: center;
+justify-content: center; 
+} 
+#card1{
+    margin-top: 8rem;
+    width: 27rem;
+    height: 25rem;
+    background-color: white;
+    border-radius: 5px;
+} 
+#input{
+    margin-top: 40px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    /* border-bottom: 20px; */
+    
+    
+}
+#submitdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+    height: 3rem;
+    /* background-color: blueviolet; */
+
+}
+#submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 5px;
+    background: #141a34;
+    color: white;
+    cursor: pointer;
+    margin-top: 50px;
+
+}
+#YourMessage{
+    display: flex;
+
+}
+p{
+    margin-top: 30px;
+}
+.inputClass{
+    margin-left: 47px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid gray;
+
+
+}
+#inputTextarea{
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid gray;
+}
+
+#inputEmail{
+    margin-left: 50px;
+
+
+}
+h2{
+    /* position: fixed; */
+    margin-top:20px;
+    text-align: center;
+}
+
+#card{
+    position: absolute;
+    border-radius: 5px;
+    margin-top: 10rem;
+    width: 24rem;
+    height: 20rem;
+    background-color: white;
+    visibility: hidden;
+    /* visibility: visible; */
+
+   
+
+}
+#img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10px;
+    /* background-color: blueviolet; */
+}
+#tickImg{
+    height: 5rem;
+}
+h1{
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.text{
+    margin: 3px;
+    text-align: center;
+ }
+ #text1{
+    margin-top: 20px;
+ }
+ #okCard{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 20rem;
+    height: 3rem;
+    background: #6fd649;
+    margin-left:33.5px;
+ }
+ .error{
+    color: red;
+    font-size: 12px;
+    margin-left: 20px;
+    visibility: hidden;
+
+ }

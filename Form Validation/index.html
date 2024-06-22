@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="card">
+        <div id="img">
+            <img id="tickImg" src="404-tick.png"> 
+        </div>
+        <h1>Thank You!</h1>
+        
+            <P class="text" id="text1">Your Details has been successfully </P>
+            <p class="text" id="text2">submitted Thanks!</P>
+                <div id="okCard">OK </div>
+
+    </div>
+
+    <div id="card1">
+        
+        <h2>Form</h2>
+        <div id="input">
+           
+        <div id="fullname">
+            Fullname
+            <input id="inputName" class="inputClass" type="text" placeholder="Enter your name">
+            <span class="error" id="name-error">Name is Required</span>
+        </div>
+        <div id="PhoneNo">
+            PhoneNo
+            <input id= "inputPhoneno"class="inputClass" type="number" placeholder="123 456 7890">
+            <span class="error" id="phone-error">Phone No is required</span>
+        </div>
+        <div id="Email">
+            Email id
+            <input id="inputEmail"  class="inputClass" type="email" placeholder="Enter Email">
+            <span class="error" id="email-error">Email is Required</span>
+        </div>
+        <div id="YourMessage">
+         <P>   Your Message</P> 
+
+            <textarea id="inputTextarea" rows= "5" placeholder="Enter your Message"></textarea>
+            <span class="error" id="message-error">Message is Required</span>
+        
+        </div>
+    </div>
+    <div id="submitdiv">
+    <div id="submit">Submit</div>
+     </div>
+        
+
+
+    </div>
+
+   <script src="app.js"></script>
+</body>
+</html>
